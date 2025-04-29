@@ -5,13 +5,13 @@ class Rectangle {
 	this._height = height;
 }
 get width(){
-	return this._width;
+	return this._width
 }
 get height(){
-	return this._height;
+	return this._height
 }
 get area(){
-	return this._width * this._height;
+	return this._width * this._height
 }
 }
 class Square extends Rectangle {
@@ -30,7 +30,7 @@ console.log(rect.area);
 const sq = new Square(7);
 console.log(sq.width);
 console.log(sq.height);
-console.log(sq.arae);
+console.log(sq.area);
 console.log(sq.perimeter);
 
 // Do not change the code below this line
